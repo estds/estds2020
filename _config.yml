@@ -3,7 +3,7 @@ markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 timezone: Asia/Shanghai
 livereload: true
-baseurl: https://estds.yicode.ac
+baseurl: https://2020.estds.yicode.ac
 cfrc_start: 2021-04-21
 cfrc_end: 2021-04-24
 cfrc_place: Nanjing, China
