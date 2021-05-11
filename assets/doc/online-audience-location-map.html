@@ -26,10 +26,10 @@
 <script>
 
 	
-	            const map = L.map('leaflet-map').setView([32.16522952589347,-1.94149353485563], 2);
+	            const map = L.map('leaflet-map',{ scrollWheelZoom: false }).setView([48.00,107.00, 2);
             L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                 minZoom: 2,
-                maxZoom: 20,
+                maxZoom: 10,
                 attribution: 'Map data © <a href="https://openstreetmap.org">OpenStreetMap</a> contributors'
             }).addTo(map);
             const leafletMarkers = L.layerGroup([
